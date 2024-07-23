@@ -6,7 +6,8 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  uses: craigmilleruk/target-repo/.github/workflows/target.yml@main
+  trigger:
+    uses: craigmilleruk/target-repo/.github/workflows/target.yml@main
 
 
 
