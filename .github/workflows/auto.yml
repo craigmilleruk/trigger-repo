@@ -6,6 +6,6 @@ on:
 
 jobs:
   autorun:
-    runs-on: ubuntu-linux
+    runs-on: ubuntu-latest
     steps:
       - run: echo 'Auto triggered'
