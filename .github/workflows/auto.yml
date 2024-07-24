@@ -1,11 +1,11 @@
 name: auto
 on:
   workflow_run:
-    worflows: [trigger]
+    workflows: [trigger]
     types: completed
 
 jobs:
   autorun:
     runs-on: ubuntu-linux
     steps:
-      run: echo 'Auto triggered'
+      - run: echo 'Auto triggered'
